@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="profile-card" data-testid="profileCard">
+    <!-- Profile Picture -->
+    <img src="profile_picture.jpg" alt="Profile Picture" class="profile-picture" data-testid="profilePicture">
+
+    <!-- Full Name -->
+    <h1 class="full-name" data-testid="fullName">Molonia Favour</h1>
+
+    <!-- Job Title -->
+    <p class="job-title" data-testid="jobTitle">Frontend Developer</p>
+
+    <!-- Short Bio -->
+    <p class="short-bio" data-testid="shortBio">
+      Passionate about building responsive and user-friendly web applications. 
+      I love working with HTML, CSS, and JavaScript to create seamless user experiences.
+    </p>
+
+    <!-- Current Location -->
+    <p class="current-location" data-testid="currentLocation">Port Harcourt, Nigeria</p>
+
+    <!-- Email Address -->
+    <p class="email-address" data-testid="emailAddress">diberifavour@gmail.com</p>
+
+    <!-- Social Links -->
+    <div class="social-links" data-testid="socialLinks">
+      <a href="www.linkedin.com/in/favour-molonia-308baa2b1" target="_blank">LinkedIn</a>
+      <a href="https://github.com/Molonia2002" target="_blank">GitHub</a>
+      <a href="https://twitter.com/molonia" target="_blank">Twitter</a>
+    </div>
+
+    <!-- Current Time in UTC -->
+    <p class="current-time" data-testid="currentTimeUTC">Current UTC Time: <span id="utcTime"></span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

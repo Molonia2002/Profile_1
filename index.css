@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .profile-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  /* Profile Picture */
+  .profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  /* Full Name */
+  .full-name {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  /* Job Title */
+  .job-title {
+    font-size: 1.1rem;
+    color: #777;
+    margin: 5px 0;
+  }
+  
+  /* Short Bio */
+  .short-bio {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Current Location */
+  .current-location {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  /* Email Address */
+  .email-address {
+    font-size: 0.9rem;
+    color: #007bff;
+    margin: 10px 0;
+  }
+  
+  /* Social Links */
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px 0;
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 0.9rem;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Current Time in UTC */
+  .current-time {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .profile-card {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    .profile-picture {
+      width: 80px;
+      height: 80px;
+    }
+  
+    .full-name {
+      font-size: 1.3rem;
+    }
+  
+    .job-title {
+      font-size: 1rem;
+    }
+  
+    .short-bio {
+      font-size: 0.8rem;
+    }
+  }
